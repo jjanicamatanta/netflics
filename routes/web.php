@@ -16,10 +16,6 @@ Route::get('/', function () {
     return redirect()->route('series.index',$serie_name);
 });
 
-Route::get('/housemd',function(){
-	return "PRueba";
-});
-
 Route::get('{serie_name}','SerieController@index')
 	->name('series.index');
 
