@@ -21,3 +21,5 @@ class EpisodeController extends Controller
     	return view('episodes.show',compact('episode'));
     }
 }
+
+
